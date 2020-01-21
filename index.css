@@ -1,0 +1,106 @@
+
+
+.row {
+	width: 100%;
+	margin-top: 50px;
+
+}
+#red{
+	background-color: #e60000;
+}
+#yellow{
+	background-color: #ffff99;
+
+}
+#pink{
+	background-color: #ffb3ff;
+}
+h1{
+	text-align: center;
+}
+p {
+	margin-top: 40px;
+	margin-right: auto;
+  margin-left: auto;
+}
+div#above {
+	background-color: grey;
+border-style: groove;
+}
+
+
+header {
+	
+ border-style: outset;
+  height: 30px;
+  font-family: Helvetica;
+  color: black;
+  text-align: center;
+  float: right;
+  width: 33%;
+}
+/* windows browser */
+@media (min-width: 992px) {
+ 
+  div#above {
+    float: left;
+  	width: 31.33%;
+ 
+  height: 150px;
+  color: black;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  }
+  
+}
+
+/* tablet browser */
+@media (min-width: 768px) and (max-width: 991px) {
+  div.above{
+    float: left;
+ 
+    width: 48%;
+
+  height: auto;
+  color: black;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 25px;
+  box-sizing: border-box;
+  }
+  div.below{
+  float: left;
+    width: 98%;
+ 
+
+  height: auto;
+  color: black;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 25px;
+
+
+  }
+header.sbelow{
+	width: 125px
+}
+}
+
+/* mobile browser */
+@media (max-width: 767px) {
+  div#above{
+  	float: left;
+  	width: 98%;
+  	clear: left;
+
+
+  height: 150px;
+  color: black;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom:10px;
+  margin-top:10px;
+
+
+  }
+}
